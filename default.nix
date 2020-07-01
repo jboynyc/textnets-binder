@@ -13,6 +13,9 @@ with pkgs;
         [ click pandas pycairo spacy srsly thinc ujson
           python-igraph toolz ]))
     ];
+    shellHook = ''
+      export SOURCE_DATE_EPOCH=315532800
+    '';
     postShellHook = ''
       export LD_LIBRARY_PATH=${lib.makeLibraryPath [stdenv.cc.cc]}
       pip install git+https://github.com/jboynyc/textnets.git@trunk#egg=textnets-stable
