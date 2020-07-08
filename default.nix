@@ -15,7 +15,7 @@ stdenv.mkDerivation rec {
   postShellHook = ''
     SOURCE_DATE_EPOCH=$(date +%s)
     export LD_LIBRARY_PATH=${lib.makeLibraryPath [stdenv.cc.cc]}
-    pip install git+https://github.com/jboynyc/textnets.git@trunk#egg=textnets-stable
+    pip install textnets==0.4.7
     models=("de_core_news_sm"
             "el_core_news_sm"
             "en_core_web_sm"
