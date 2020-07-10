@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
             "es_core_news_sm"
             "fr_core_news_sm"
             "it_core_news_sm"
-            "ja_core_news_sm"
+           #"ja_core_news_sm"
             "lt_core_news_sm"
             "nb_core_news_sm"
             "nl_core_news_sm"
