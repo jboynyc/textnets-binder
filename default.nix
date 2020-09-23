@@ -33,7 +33,7 @@ stdenv.mkDerivation rec {
     for m in "''${models[@]}";
       do python -m spacy download $m
     done
-    pip install notebook==6.0.3
+    pip install notebook==6.1.4
     python -m ipykernel install --user --name $name --display-name "Python 3.8 (with textnets)"
   '';
 }
