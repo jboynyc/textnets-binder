@@ -3,10 +3,3 @@ channels:
   - conda-forge
 dependencies:
   - textnets
-  - spacy-model-de_core_news_sm
-  - spacy-model-en_core_web_sm
-  - spacy-model-es_core_news_sm
-  - spacy-model-fr_core_news_sm
-  - spacy-model-it_core_news_sm
-  - spacy-model-nl_core_news_sm
-  - spacy-model-pt_core_news_sm
