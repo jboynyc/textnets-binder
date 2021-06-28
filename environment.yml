@@ -2,4 +2,5 @@ name: textnets-tutorial
 channels:
   - conda-forge
 dependencies:
-  - textnets
+  - textnets >=0.5
+  - spacy-model-en_core_web_sm >=3.0
