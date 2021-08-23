@@ -10,16 +10,16 @@ blis==0.7.4
     #   thinc
 cairocffi==1.2.0
     # via textnets
-catalogue==2.0.4
+catalogue==2.0.6
     # via
     #   spacy
     #   srsly
     #   thinc
 certifi==2021.5.30
     # via requests
-cffi==1.14.5
+cffi==1.14.6
     # via cairocffi
-chardet==4.0.0
+charset-normalizer==2.0.4
     # via requests
 click==7.1.2
     # via typer
@@ -32,7 +32,7 @@ cymem==2.0.5
     #   thinc
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
     # via -r requirements.in
-idna==2.10
+idna==3.2
     # via requests
 jinja2==3.0.1
     # via spacy
@@ -42,14 +42,14 @@ leidenalg==0.8.7
     # via textnets
 markupsafe==2.0.1
     # via jinja2
-matplotlib==3.4.2
+matplotlib==3.4.3
     # via -r requirements.in
 murmurhash==1.0.5
     # via
     #   preshed
     #   spacy
     #   thinc
-numpy==1.21.0
+numpy==1.21.2
     # via
     #   blis
     #   matplotlib
@@ -59,7 +59,7 @@ numpy==1.21.0
     #   thinc
 packaging==21.0
     # via spacy
-pandas==1.3.0
+pandas==1.3.2
     # via textnets
 pathy==0.6.0
     # via spacy
@@ -71,7 +71,7 @@ preshed==3.0.5
     #   thinc
 pycparser==2.20
     # via cffi
-pydantic==1.7.4
+pydantic==1.8.2
     # via
     #   spacy
     #   thinc
@@ -79,7 +79,7 @@ pyparsing==2.4.7
     # via
     #   matplotlib
     #   packaging
-python-dateutil==2.8.1
+python-dateutil==2.8.2
     # via
     #   matplotlib
     #   pandas
@@ -89,19 +89,19 @@ python-igraph==0.9.6
     #   textnets
 pytz==2021.1
     # via pandas
-requests==2.25.1
+requests==2.26.0
     # via spacy
-scipy==1.7.0
+scipy==1.7.1
     # via textnets
 six==1.16.0
     # via
     #   cycler
     #   python-dateutil
-smart-open==5.1.0
+smart-open==5.2.0
     # via pathy
-spacy-legacy==3.0.7
+spacy-legacy==3.0.8
     # via spacy
-spacy==3.0.6
+spacy==3.0.7
     # via
     #   en-core-web-sm
     #   textnets
@@ -111,18 +111,20 @@ srsly==2.4.1
     #   thinc
 textnets==0.5.1
     # via -r requirements.in
-texttable==1.6.3
+texttable==1.6.4
     # via python-igraph
-thinc==8.0.7
+thinc==8.0.8
     # via spacy
 toolz==0.11.1
     # via textnets
-tqdm==4.61.2
+tqdm==4.62.1
     # via spacy
 typer==0.3.2
     # via
     #   pathy
     #   spacy
+typing-extensions==3.10.0.0
+    # via pydantic
 urllib3==1.26.6
     # via requests
 wasabi==0.8.2
