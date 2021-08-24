@@ -30,7 +30,7 @@ cymem==2.0.5
     #   preshed
     #   spacy
     #   thinc
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0.tar.gz
     # via -r requirements.in
 idna==3.2
     # via requests
@@ -101,7 +101,7 @@ smart-open==5.2.0
     # via pathy
 spacy-legacy==3.0.8
     # via spacy
-spacy==3.0.7
+spacy==3.1.2
     # via
     #   en-core-web-sm
     #   textnets
@@ -109,7 +109,7 @@ srsly==2.4.1
     # via
     #   spacy
     #   thinc
-textnets==0.5.1
+textnets==0.5.2
     # via -r requirements.in
 texttable==1.6.4
     # via python-igraph
@@ -117,7 +117,7 @@ thinc==8.0.8
     # via spacy
 toolz==0.11.1
     # via textnets
-tqdm==4.62.1
+tqdm==4.62.2
     # via spacy
 typer==0.3.2
     # via
