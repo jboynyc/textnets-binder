@@ -63,7 +63,7 @@ pandas==1.3.2
     # via textnets
 pathy==0.6.0
     # via spacy
-pillow==8.3.1
+pillow==8.3.2
     # via matplotlib
 preshed==3.0.5
     # via
@@ -99,12 +99,12 @@ six==1.16.0
     #   python-dateutil
 smart-open==5.2.0
     # via pathy
-spacy-legacy==3.0.8
-    # via spacy
 spacy==3.1.2
     # via
     #   en-core-web-sm
     #   textnets
+spacy-legacy==3.0.8
+    # via spacy
 srsly==2.4.1
     # via
     #   spacy
