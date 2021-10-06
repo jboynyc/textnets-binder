@@ -8,7 +8,7 @@ blis==0.7.4
     # via
     #   spacy
     #   thinc
-cairocffi==1.2.0
+cairocffi==1.3.0
     # via textnets
 catalogue==2.0.6
     # via
@@ -19,9 +19,9 @@ certifi==2021.5.30
     # via requests
 cffi==1.14.6
     # via cairocffi
-charset-normalizer==2.0.4
+charset-normalizer==2.0.6
     # via requests
-click==7.1.2
+click==8.0.1
     # via typer
 cycler==0.10.0
     # via matplotlib
@@ -30,13 +30,15 @@ cymem==2.0.5
     #   preshed
     #   spacy
     #   thinc
+cython==0.29.24
+    # via textnets
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0.tar.gz
     # via -r requirements.in
 idna==3.2
     # via requests
-jinja2==3.0.1
+jinja2==3.0.2
     # via spacy
-kiwisolver==1.3.1
+kiwisolver==1.3.2
     # via matplotlib
 leidenalg==0.8.7
     # via textnets
@@ -59,11 +61,11 @@ numpy==1.21.2
     #   thinc
 packaging==21.0
     # via spacy
-pandas==1.3.2
+pandas==1.3.3
     # via textnets
 pathy==0.6.0
     # via spacy
-pillow==8.3.1
+pillow==8.3.2
     # via matplotlib
 preshed==3.0.5
     # via
@@ -87,7 +89,7 @@ python-igraph==0.9.6
     # via
     #   leidenalg
     #   textnets
-pytz==2021.1
+pytz==2021.3
     # via pandas
 requests==2.26.0
     # via spacy
@@ -97,11 +99,11 @@ six==1.16.0
     # via
     #   cycler
     #   python-dateutil
-smart-open==5.2.0
+smart-open==5.2.1
     # via pathy
 spacy-legacy==3.0.8
     # via spacy
-spacy==3.1.2
+spacy==3.1.3
     # via
     #   en-core-web-sm
     #   textnets
@@ -109,23 +111,23 @@ srsly==2.4.1
     # via
     #   spacy
     #   thinc
-textnets==0.5.2
+textnets==0.5.4
     # via -r requirements.in
 texttable==1.6.4
     # via python-igraph
-thinc==8.0.8
+thinc==8.0.10
     # via spacy
 toolz==0.11.1
     # via textnets
-tqdm==4.62.2
+tqdm==4.62.3
     # via spacy
-typer==0.3.2
+typer==0.4.0
     # via
     #   pathy
     #   spacy
-typing-extensions==3.10.0.0
+typing-extensions==3.10.0.2
     # via pydantic
-urllib3==1.26.6
+urllib3==1.26.7
     # via requests
 wasabi==0.8.2
     # via
