@@ -15,13 +15,13 @@ catalogue==2.0.6
     #   spacy
     #   srsly
     #   thinc
-certifi==2021.5.30
+certifi==2021.10.8
     # via requests
-cffi==1.14.6
+cffi==1.15.0
     # via cairocffi
-charset-normalizer==2.0.6
+charset-normalizer==2.0.7
     # via requests
-click==8.0.1
+click==8.0.3
     # via typer
 cycler==0.10.0
     # via matplotlib
@@ -34,7 +34,7 @@ cython==0.29.24
     # via textnets
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0.tar.gz
     # via -r requirements.in
-idna==3.2
+idna==3.3
     # via requests
 jinja2==3.0.2
     # via spacy
@@ -111,7 +111,7 @@ srsly==2.4.1
     # via
     #   spacy
     #   thinc
-textnets==0.5.4
+textnets==0.6.0
     # via -r requirements.in
 texttable==1.6.4
     # via python-igraph
