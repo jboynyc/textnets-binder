@@ -40,7 +40,7 @@ jinja2==3.0.2
     # via spacy
 kiwisolver==1.3.2
     # via matplotlib
-leidenalg==0.8.7
+leidenalg==0.8.8
     # via textnets
 markupsafe==2.0.1
     # via jinja2
@@ -61,11 +61,11 @@ numpy==1.21.2
     #   thinc
 packaging==21.0
     # via spacy
-pandas==1.3.3
+pandas==1.3.4
     # via textnets
 pathy==0.6.0
     # via spacy
-pillow==8.3.2
+pillow==8.4.0
     # via matplotlib
 preshed==3.0.5
     # via
@@ -85,7 +85,7 @@ python-dateutil==2.8.2
     # via
     #   matplotlib
     #   pandas
-python-igraph==0.9.6
+python-igraph==0.9.7
     # via
     #   leidenalg
     #   textnets
@@ -115,7 +115,7 @@ textnets==0.6.0
     # via -r requirements.in
 texttable==1.6.4
     # via python-igraph
-thinc==8.0.10
+thinc==8.0.11
     # via spacy
 toolz==0.11.1
     # via textnets
