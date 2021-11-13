@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-blis==0.7.4
+blis==0.7.5
     # via
     #   spacy
     #   thinc
@@ -23,9 +23,9 @@ charset-normalizer==2.0.7
     # via requests
 click==8.0.3
     # via typer
-cycler==0.10.0
+cycler==0.11.0
     # via matplotlib
-cymem==2.0.5
+cymem==2.0.6
     # via
     #   preshed
     #   spacy
@@ -36,7 +36,11 @@ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0
     # via -r requirements.in
 idna==3.3
     # via requests
-jinja2==3.0.2
+igraph==0.9.8
+    # via
+    #   python-igraph
+    #   textnets
+jinja2==3.0.3
     # via spacy
 kiwisolver==1.3.2
     # via matplotlib
@@ -46,12 +50,12 @@ markupsafe==2.0.1
     # via jinja2
 matplotlib==3.4.3
     # via -r requirements.in
-murmurhash==1.0.5
+murmurhash==1.0.6
     # via
     #   preshed
     #   spacy
     #   thinc
-numpy==1.21.2
+numpy==1.21.4
     # via
     #   blis
     #   matplotlib
@@ -59,19 +63,19 @@ numpy==1.21.2
     #   scipy
     #   spacy
     #   thinc
-packaging==21.0
+packaging==21.2
     # via spacy
 pandas==1.3.4
     # via textnets
-pathy==0.6.0
+pathy==0.6.1
     # via spacy
 pillow==8.4.0
     # via matplotlib
-preshed==3.0.5
+preshed==3.0.6
     # via
     #   spacy
     #   thinc
-pycparser==2.20
+pycparser==2.21
     # via cffi
 pydantic==1.8.2
     # via
@@ -85,39 +89,35 @@ python-dateutil==2.8.2
     # via
     #   matplotlib
     #   pandas
-python-igraph==0.9.7
-    # via
-    #   leidenalg
-    #   textnets
+python-igraph==0.9.8
+    # via leidenalg
 pytz==2021.3
     # via pandas
 requests==2.26.0
     # via spacy
-scipy==1.7.1
+scipy==1.7.2
     # via textnets
 six==1.16.0
-    # via
-    #   cycler
-    #   python-dateutil
+    # via python-dateutil
 smart-open==5.2.1
     # via pathy
 spacy-legacy==3.0.8
     # via spacy
-spacy==3.1.3
+spacy==3.1.4
     # via
     #   en-core-web-sm
     #   textnets
-srsly==2.4.1
+srsly==2.4.2
     # via
     #   spacy
     #   thinc
-textnets==0.6.0
+textnets==0.7.0
     # via -r requirements.in
 texttable==1.6.4
-    # via python-igraph
-thinc==8.0.11
+    # via igraph
+thinc==8.0.13
     # via spacy
-toolz==0.11.1
+toolz==0.11.2
     # via textnets
 tqdm==4.62.3
     # via spacy
@@ -132,6 +132,7 @@ urllib3==1.26.7
 wasabi==0.8.2
     # via
     #   spacy
+    #   textnets
     #   thinc
 
 # The following packages are considered to be unsafe in a requirements file:
