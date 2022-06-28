@@ -117,7 +117,7 @@ srsly==2.4.3
     # via
     #   spacy
     #   thinc
-textnets==0.8.1
+textnets==0.8.2
     # via -r requirements.in
 texttable==1.6.4
     # via igraph
