@@ -8,7 +8,7 @@ bitsets==0.8.4
     # via concepts
 blis==0.7.9
     # via thinc
-cairocffi==1.4.0
+cairocffi==1.5.0
     # via textnets
 catalogue==2.0.8
     # via
@@ -19,7 +19,7 @@ certifi==2022.12.7
     # via requests
 cffi==1.15.1
     # via cairocffi
-charset-normalizer==3.0.1
+charset-normalizer==3.1.0
     # via requests
 click==8.1.3
     # via typer
@@ -40,7 +40,7 @@ cython==0.29.33
     # via textnets
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
     # via -r requirements.in
-fonttools==4.38.0
+fonttools==4.39.3
     # via matplotlib
 graphviz==0.20.1
     # via concepts
@@ -60,7 +60,7 @@ leidenalg==0.9.1
     # via textnets
 markupsafe==2.1.2
     # via jinja2
-matplotlib==3.6.3
+matplotlib==3.7.1
     # via -r requirements.in
 murmurhash==1.0.9
     # via
@@ -92,7 +92,7 @@ preshed==3.0.8
     #   thinc
 pycparser==2.21
     # via cffi
-pydantic==1.10.4
+pydantic==1.10.7
     # via
     #   spacy
     #   thinc
@@ -102,11 +102,11 @@ python-dateutil==2.8.2
     # via
     #   matplotlib
     #   pandas
-pytz==2022.7.1
+pytz==2023.3
     # via pandas
 requests==2.28.2
     # via spacy
-scipy==1.10.0
+scipy==1.10.1
     # via textnets
 six==1.16.0
     # via python-dateutil
@@ -114,7 +114,7 @@ smart-open==6.3.0
     # via
     #   pathy
     #   spacy
-spacy==3.5.0
+spacy==3.5.1
     # via
     #   en-core-web-sm
     #   textnets
@@ -122,19 +122,19 @@ spacy-legacy==3.0.12
     # via spacy
 spacy-loggers==1.0.4
     # via spacy
-srsly==2.4.5
+srsly==2.4.6
     # via
     #   spacy
     #   thinc
-textnets[fca]==0.8.7
+textnets[fca]==0.8.8
     # via -r requirements.in
 texttable==1.6.7
     # via igraph
-thinc==8.1.7
+thinc==8.1.9
     # via spacy
 toolz==0.12.0
     # via textnets
-tqdm==4.64.1
+tqdm==4.65.0
     # via
     #   spacy
     #   textnets
@@ -142,9 +142,9 @@ typer==0.7.0
     # via
     #   pathy
     #   spacy
-typing-extensions==4.4.0
+typing-extensions==4.5.0
     # via pydantic
-urllib3==1.26.14
+urllib3==1.26.15
     # via requests
 wasabi==1.1.1
     # via
