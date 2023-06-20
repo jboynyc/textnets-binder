@@ -8,14 +8,14 @@ bitsets==0.8.4
     # via concepts
 blis==0.7.9
     # via thinc
-cairocffi==1.5.0
+cairocffi==1.6.0
     # via textnets
 catalogue==2.0.8
     # via
     #   spacy
     #   srsly
     #   thinc
-certifi==2022.12.7
+certifi==2023.5.7
     # via requests
 cffi==1.15.1
     # via cairocffi
@@ -27,7 +27,7 @@ concepts==0.9.2
     # via textnets
 confection==0.0.4
     # via thinc
-contourpy==1.0.7
+contourpy==1.1.0
     # via matplotlib
 cycler==0.11.0
     # via matplotlib
@@ -36,11 +36,11 @@ cymem==2.0.7
     #   preshed
     #   spacy
     #   thinc
-cython==0.29.33
+cython==0.29.35
     # via textnets
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
     # via -r requirements.in
-fonttools==4.39.3
+fonttools==4.40.0
     # via matplotlib
 graphviz==0.20.1
     # via concepts
@@ -58,7 +58,7 @@ langcodes==3.3.0
     # via spacy
 leidenalg==0.9.1
     # via textnets
-markupsafe==2.1.2
+markupsafe==2.1.3
     # via jinja2
 matplotlib==3.7.1
     # via -r requirements.in
@@ -67,7 +67,7 @@ murmurhash==1.0.9
     #   preshed
     #   spacy
     #   thinc
-numpy==1.24.2
+numpy==1.24.3
     # via
     #   contourpy
     #   matplotlib
@@ -75,16 +75,16 @@ numpy==1.24.2
     #   scipy
     #   spacy
     #   thinc
-packaging==23.0
+packaging==23.1
     # via
     #   matplotlib
     #   spacy
     #   thinc
-pandas==1.5.3
+pandas==2.0.2
     # via textnets
 pathy==0.10.1
     # via spacy
-pillow==9.4.0
+pillow==9.5.0
     # via matplotlib
 preshed==3.0.8
     # via
@@ -92,7 +92,7 @@ preshed==3.0.8
     #   thinc
 pycparser==2.21
     # via cffi
-pydantic==1.10.7
+pydantic==1.10.9
     # via
     #   spacy
     #   thinc
@@ -104,7 +104,7 @@ python-dateutil==2.8.2
     #   pandas
 pytz==2023.3
     # via pandas
-requests==2.28.2
+requests==2.31.0
     # via spacy
 scipy==1.10.1
     # via textnets
@@ -114,7 +114,7 @@ smart-open==6.3.0
     # via
     #   pathy
     #   spacy
-spacy==3.5.1
+spacy==3.5.3
     # via
     #   en-core-web-sm
     #   textnets
@@ -126,11 +126,11 @@ srsly==2.4.6
     # via
     #   spacy
     #   thinc
-textnets[fca]==0.8.8
+textnets[fca]==0.9.1
     # via -r requirements.in
 texttable==1.6.7
     # via igraph
-thinc==8.1.9
+thinc==8.1.10
     # via spacy
 toolz==0.12.0
     # via textnets
@@ -142,11 +142,13 @@ typer==0.7.0
     # via
     #   pathy
     #   spacy
-typing-extensions==4.5.0
+typing-extensions==4.6.3
     # via pydantic
-urllib3==1.26.15
+tzdata==2023.3
+    # via pandas
+urllib3==2.0.3
     # via requests
-wasabi==1.1.1
+wasabi==1.1.2
     # via
     #   spacy
     #   textnets
