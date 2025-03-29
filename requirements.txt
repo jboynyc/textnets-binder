@@ -100,7 +100,7 @@ preshed==3.0.9
     #   thinc
 pyarrow==18.1.0
     # via textnets
-pydantic==2.11.0
+pydantic==2.11.1
     # via
     #   confection
     #   spacy
@@ -146,7 +146,7 @@ srsly==2.5.1
     #   spacy
     #   thinc
     #   weasel
-textnets[cjk,zh] @ git+https://github.com/jboynyc/textnets.git@dev
+textnets[cjk,zh]==0.10.3
     # via -r requirements.in
 texttable==1.7.0
     # via igraph
